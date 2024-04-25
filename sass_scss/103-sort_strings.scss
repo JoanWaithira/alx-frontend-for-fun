@@ -1,5 +1,5 @@
 /* My Styles */
 
-@import '103-sort_list';
-
+$list_to_sort: john anna zoe kim felicia carrie;
+$list_to_sort: sort($list_to_sort);
 @debug $list_to_sort;
