@@ -1,8 +1,11 @@
 /* My style */
-button {
-  color: #FF0000;
 
-  &:hover {
-    color: #00FF00;
+body {
+  font-size: 14px;
+  h1 {
+    font-size: 16px;
+    &.smaller {
+      font-size: 12px; 
+    }
   }
 }
