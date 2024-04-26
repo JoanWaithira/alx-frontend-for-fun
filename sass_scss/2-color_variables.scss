@@ -1,0 +1,16 @@
+/* My style */
+$primary-text-color: #3D3D3D;
+$primary-bg-color: #6D6D6D;
+
+body {
+  color: $primary-text-color;
+  background-color: $primary-bg-color;
+}
+
+p {
+  color: $primary-text-color;
+}
+
+h2 {
+  background-color: $primary-bg-color;
+}
